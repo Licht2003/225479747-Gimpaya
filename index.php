@@ -18,21 +18,9 @@ while($i <= 20){
 }
 ?> 
 
-<?php
-echo "Activity 2: Password Validator";
-echo"<br>";
-$correctPassword = "password123";
-    
-  do  {
-    echo "Please enter the password: ";
-    $userInput = readline();
-    if ($userInput != $correctPassword) {
-    echo "Incorrect Password\n";
-  } 
-}
-while ($userInput != $correctPassword);
-echo "Access Granted";
-?>
+<br>
+<br>
+
 
 <?php
 echo"Activity 3: Multiplication Table";
@@ -41,9 +29,13 @@ $number = 7;
 for ($i = 1; $i <= 10; $i++) {
 
     $result = $number * $i;
-    echo $number . " x " . $i . " = " . $result . "\n";
+    echo $number . " x " . $i . " = " . $result ;
+    echo"<br>";
 }
 ?>
+<br>
+<br>
+
 
 <?php
 echo "Activity 4: Loop Control with break and continue";
@@ -59,6 +51,8 @@ for ($i = 1; $i <= 10; $i++) {
     echo $i . " ";
 }
 ?>
+<br>
+<br>
 
 <?php
 echo "Activity 5: Sum of Numbers";
@@ -72,6 +66,8 @@ while ($i <= 100) {
 }
 echo "The sum of numbers from 1 to 100 is: " . $sum;
 ?>
+<br>
+<br>
 
 <?php
 echo "Activity 6: Array Iteration with foreach";
@@ -85,10 +81,13 @@ $favoriteMovies = array(
 );
 
 foreach ($favoriteMovies as $movie) {
-    echo $movie . "\n";
+    echo $movie ;
+    echo"<br>";
 }
 ?>
 
+<br>
+<br>
 
  <?php
  echo"Activity 7: Key-Value Pairs with foreach";
@@ -100,10 +99,12 @@ $studentInfo = array(
     "City" => "Baguio"
 );
 foreach ($studentInfo as $key => $value) {
-    echo $key . ": " . $value . "\n";
-
+    echo $key . ": " . $value ;
+    echo"<br>";
 }
 ?>
+<br>
+<br>
 
 <?php
 echo"Activity 8: Factorial Calculator";
@@ -118,6 +119,8 @@ for ($i = 1; $i <= $number; $i++) {
 echo "Factorial of $number is: $factorial\n";
 
 ?>
+<br>
+<br>
 
 <?php
 echo "Activity 9: FizzBuzz Challenge";
@@ -137,6 +140,8 @@ echo"<br>";
     }
 }
 ?>
+<br>
+<br>
 
 <?php
 echo "Activity 10: Prime Number Checker";
@@ -159,6 +164,8 @@ if ($isPrime) {
     echo "$number is not a prime number.";
 }
 ?>
+<br>
+<br>
 
 <?php
 echo "Activity 11: Fibonacci Sequence";
@@ -175,6 +182,8 @@ while ($count < 10) {
     $count++;
 }
 ?>
+<br>
+<br>
 
 <?php
 echo"Activity 12: Reverse a String";
@@ -192,4 +201,3 @@ for ($i = $length - 1; $i >= 0; $i--) {
  
  
  
-
